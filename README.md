@@ -12,13 +12,15 @@ Our current engineering priority is to deepen this Bambu-first environment and m
 
 ### [BambuFlow](https://bambuflow.esolution.it/)
 
-An e-solution public technical preview for inspecting Bambu-oriented 3MF projects, defining optimization priorities and preparing a reproducible validation path through Bambu Studio Preview.
+An e-solution public technical preview for inspecting Bambu-oriented 3MF projects, converting compatible Bambu machine profiles and preparing a reproducible validation path through Bambu Studio Preview.
 
 - local-first 3MF preflight in the browser;
 - explicit separation between file evidence, user declarations and machine or physical checks;
-- guided workflow for Bambu Lab H2S and H2C configurations;
+- explicit source-machine detection and mismatch warnings;
+- resolved official machine/process conversion for compatible H2S and H2C candidates, with stale slicing artefacts removed;
 - no printer control and no automatic print start;
-- optimization engine and GitHub integration currently in development.
+- re-slicing and Preview still required before production use;
+- measurable optimization and GitHub integration currently in development.
 
 ### [Stampa 3D](https://www.esolution.it/stampa-3d-su-richiesta/)
 
